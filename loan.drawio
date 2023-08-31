@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-31T10:24:05.821Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="PLdv8mkgj78uliRqKr3g" version="21.7.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-08-31T10:28:58.194Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="tQE0mY18ci0ljBmWTcbd" version="21.7.1" type="github" pages="2">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="系统调用关系">
     <mxGraphModel dx="1674" dy="702" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" background="none" math="0" shadow="0">
       <root>
@@ -303,8 +303,11 @@
         <mxCell id="ayFjI75T-cZ3tBYYUjst-53" value="创建批跑任务&lt;span style=&quot;&quot;&gt;JOB&lt;/span&gt;" style="text;html=1;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="570" y="307.5" width="115" height="32.5" as="geometry" />
         </mxCell>
+        <mxCell id="ayFjI75T-cZ3tBYYUjst-118" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.511;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ayFjI75T-cZ3tBYYUjst-57" target="ayFjI75T-cZ3tBYYUjst-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ayFjI75T-cZ3tBYYUjst-57" value="征信成本试算" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;labelPosition=center;align=center;" vertex="1" parent="1">
-          <mxGeometry x="460" y="580" width="92" height="35" as="geometry" />
+          <mxGeometry x="460" y="565" width="92" height="35" as="geometry" />
         </mxCell>
         <mxCell id="ayFjI75T-cZ3tBYYUjst-59" value="源文件拆分" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;labelPosition=center;align=center;" vertex="1" parent="1">
           <mxGeometry x="460" y="630" width="90" height="30" as="geometry" />
@@ -336,7 +339,7 @@
             <mxPoint x="501.03999999999996" y="514" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ayFjI75T-cZ3tBYYUjst-81" value="任务消费" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ayFjI75T-cZ3tBYYUjst-80">
+        <mxCell id="ayFjI75T-cZ3tBYYUjst-81" value="执行创建批任务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ayFjI75T-cZ3tBYYUjst-80">
           <mxGeometry x="-0.0323" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -357,13 +360,13 @@
           <mxGeometry x="214" y="315" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ayFjI75T-cZ3tBYYUjst-82" value="策略管理人员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="60" y="540" width="50" height="60" as="geometry" />
+          <mxGeometry x="100" y="540" width="50" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ayFjI75T-cZ3tBYYUjst-83" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="130" y="520" width="20" height="110" as="geometry" />
+          <mxGeometry x="170" y="520" width="20" height="110" as="geometry" />
         </mxCell>
         <mxCell id="ayFjI75T-cZ3tBYYUjst-84" value="审批服务" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;labelPosition=center;align=center;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="170" y="557.5" width="80" height="25" as="geometry" />
+          <mxGeometry x="240" y="555" width="80" height="25" as="geometry" />
         </mxCell>
         <mxCell id="ayFjI75T-cZ3tBYYUjst-86" value="fastDFS" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.three_corner_round_rect;dx=6;whiteSpace=wrap;rotation=90;labelPosition=center;align=center;horizontal=0;" vertex="1" parent="1">
           <mxGeometry x="745.63" y="799.38" width="473.75" height="50" as="geometry" />
@@ -423,6 +426,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="ayFjI75T-cZ3tBYYUjst-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="ayFjI75T-cZ3tBYYUjst-103" target="ayFjI75T-cZ3tBYYUjst-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ayFjI75T-cZ3tBYYUjst-112" value="执行批跑任务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ayFjI75T-cZ3tBYYUjst-111">
+          <mxGeometry x="0.0159" y="1" relative="1" as="geometry">
+            <mxPoint x="-36" y="46" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ayFjI75T-cZ3tBYYUjst-103" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="195" y="838.37" width="120" height="130" as="geometry" />
         </mxCell>
@@ -437,6 +448,21 @@
         </mxCell>
         <mxCell id="ayFjI75T-cZ3tBYYUjst-107" value="多机器负载均衡" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="209" y="845.87" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ayFjI75T-cZ3tBYYUjst-110" value="" style="verticalLabelPosition=top;verticalAlign=bottom;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;labelPosition=center;align=center;strokeColor=#ff1b0a;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1070" width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ayFjI75T-cZ3tBYYUjst-114" value="策略人员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="59" y="1110" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ayFjI75T-cZ3tBYYUjst-115" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="129" y="1090" width="20" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ayFjI75T-cZ3tBYYUjst-116" value="任务流程" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;labelPosition=center;align=center;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1080" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ayFjI75T-cZ3tBYYUjst-117" value="米霍克" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;labelPosition=center;align=center;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1125" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
