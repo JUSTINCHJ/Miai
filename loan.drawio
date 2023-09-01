@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-31T11:38:36.637Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="k_Ml_FNg_kO1dweuPx-i" version="21.7.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-08-31T11:47:15.306Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="801cECQgygT2-HCjpKca" version="21.7.1" type="github" pages="2">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="系统调用关系">
     <mxGraphModel dx="1674" dy="702" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" background="none" math="0" shadow="0">
       <root>
@@ -272,8 +272,8 @@
               <mxPoint x="585" y="570" />
               <mxPoint x="740" y="570" />
               <mxPoint x="740" y="598" />
-              <mxPoint x="957" y="598" />
-              <mxPoint x="957" y="590" />
+              <mxPoint x="960" y="598" />
+              <mxPoint x="960" y="590" />
               <mxPoint x="959" y="590" />
             </Array>
           </mxGeometry>
@@ -396,7 +396,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ayFjI75T-cZ3tBYYUjst-92" value="批跑任务&lt;span style=&quot;&quot;&gt;JOB&lt;/span&gt;" style="text;html=1;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="500" y="723.75" width="90" height="32.5" as="geometry" />
+          <mxGeometry x="570" y="770" width="90" height="32.5" as="geometry" />
         </mxCell>
         <mxCell id="ayFjI75T-cZ3tBYYUjst-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;elbow=vertical;curved=1;dashed=1;" edge="1" parent="1" source="ayFjI75T-cZ3tBYYUjst-93" target="ayFjI75T-cZ3tBYYUjst-89">
           <mxGeometry relative="1" as="geometry" />
@@ -450,6 +450,14 @@
         </mxCell>
         <mxCell id="ayFjI75T-cZ3tBYYUjst-107" value="多机器负载均衡" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="209" y="845.87" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ayFjI75T-cZ3tBYYUjst-150" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.512;entryY=0.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ayFjI75T-cZ3tBYYUjst-110" target="ayFjI75T-cZ3tBYYUjst-146">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ayFjI75T-cZ3tBYYUjst-151" value="通知申请单" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ayFjI75T-cZ3tBYYUjst-150">
+          <mxGeometry x="-0.2237" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ayFjI75T-cZ3tBYYUjst-110" value="" style="verticalLabelPosition=top;verticalAlign=bottom;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;labelPosition=center;align=center;strokeColor=#ff1b0a;" vertex="1" parent="1">
           <mxGeometry x="430" y="1040" width="170" height="240" as="geometry" />
@@ -559,7 +567,13 @@
           <mxGeometry x="685" y="1087.5" width="55" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ayFjI75T-cZ3tBYYUjst-143" value="批跑需任务表" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=89;verticalAlign=top;horizontal=0;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-          <mxGeometry x="760" y="1320" width="50.09" height="75.09" as="geometry" />
+          <mxGeometry x="850.09" y="1260" width="50.09" height="75.09" as="geometry" />
+        </mxCell>
+        <mxCell id="ayFjI75T-cZ3tBYYUjst-146" value="" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;labelPosition=center;align=center;strokeColor=#ce1c1c;" vertex="1" parent="1">
+          <mxGeometry x="432" y="1380" width="168" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="ayFjI75T-cZ3tBYYUjst-147" value="自动复核创建申请单" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1390" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
