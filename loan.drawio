@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-04T09:45:07.092Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="_JxxCJ6v3VtrW1bW41Fq" version="21.7.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-09-04T09:46:58.277Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="g9kuk2sHPSpKMM1REWfe" version="21.7.1" type="github" pages="3">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="系统调用关系">
     <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" background="none" math="0" shadow="0">
       <root>
@@ -2714,6 +2714,31 @@
         <mxCell id="Uig4VaqOZRoYCik8BVvS-737" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="Uig4VaqOZRoYCik8BVvS-735">
           <mxGeometry x="30" width="310" height="30" as="geometry">
             <mxRectangle width="310" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uig4VaqOZRoYCik8BVvS-792" value="关联任务ID" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2020" y="-640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uig4VaqOZRoYCik8BVvS-794" value="" style="endArrow=none;html=1;rounded=0;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uig4VaqOZRoYCik8BVvS-599" target="Uig4VaqOZRoYCik8BVvS-792">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2100" y="-540" as="sourcePoint" />
+            <mxPoint x="2260" y="-540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uig4VaqOZRoYCik8BVvS-796" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Uig4VaqOZRoYCik8BVvS-794">
+          <mxGeometry x="0.0744" y="-3" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uig4VaqOZRoYCik8BVvS-795" value="" style="endArrow=none;html=1;rounded=0;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uig4VaqOZRoYCik8BVvS-792" target="Uig4VaqOZRoYCik8BVvS-789">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2100" y="-540" as="sourcePoint" />
+            <mxPoint x="2260" y="-540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uig4VaqOZRoYCik8BVvS-797" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Uig4VaqOZRoYCik8BVvS-795">
+          <mxGeometry x="-0.2522" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
