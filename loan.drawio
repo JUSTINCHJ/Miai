@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-05T02:24:58.298Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="N6bzzVw8o-SnK5CJ9J2a" version="21.7.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-09-05T02:28:32.877Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="0THhYR_-e6L7NmkFjoTU" version="21.7.1" type="github" pages="3">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="系统调用关系">
     <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" background="none" math="0" shadow="0">
       <root>
@@ -672,22 +672,28 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pRgako0a-k3R9MvpSo3d-44" value="" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;labelPosition=center;align=center;strokeColor=#ce1c1c;" vertex="1" parent="1">
-          <mxGeometry x="1249" y="2000" width="168" height="310" as="geometry" />
+          <mxGeometry x="1249" y="2000" width="171" height="310" as="geometry" />
         </mxCell>
         <mxCell id="pRgako0a-k3R9MvpSo3d-45" value="额度定价信息变更" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="1237" y="2010" width="180" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="UlK41VtHedm7h0xvEFEg-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" edge="1" parent="1" source="pRgako0a-k3R9MvpSo3d-46" target="UlK41VtHedm7h0xvEFEg-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="pRgako0a-k3R9MvpSo3d-46" value="额度数据更新" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;labelPosition=center;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1273" y="2060" width="120" height="30" as="geometry" />
+          <mxGeometry x="1274.5" y="2085" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UlK41VtHedm7h0xvEFEg-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" edge="1" parent="1" source="pRgako0a-k3R9MvpSo3d-47" target="UlK41VtHedm7h0xvEFEg-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pRgako0a-k3R9MvpSo3d-47" value="定价数据" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;labelPosition=center;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1273" y="2130" width="120" height="20" as="geometry" />
+          <mxGeometry x="1274.5" y="2155" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UlK41VtHedm7h0xvEFEg-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" edge="1" parent="1" source="pRgako0a-k3R9MvpSo3d-48" target="UlK41VtHedm7h0xvEFEg-10">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pRgako0a-k3R9MvpSo3d-48" value="账期数据" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;labelPosition=center;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1273" y="2190" width="120" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="pRgako0a-k3R9MvpSo3d-49" value="其他" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;labelPosition=center;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1273" y="2250" width="120" height="20" as="geometry" />
+          <mxGeometry x="1274.5" y="2215" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="pRgako0a-k3R9MvpSo3d-59" value="消息&lt;br&gt;MQ" style="shape=tapeData;whiteSpace=wrap;html=1;perimeter=ellipsePerimeter;" vertex="1" parent="1">
           <mxGeometry x="890" y="2360" width="60" height="60" as="geometry" />
@@ -713,6 +719,15 @@
         </mxCell>
         <mxCell id="zdqTIwW-GezgFyCYoUKN-1" value="实现：横向扩展增强吞吐量，空间换时间" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
           <mxGeometry x="1048" y="2420" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UlK41VtHedm7h0xvEFEg-9" value="定价" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=89;verticalAlign=middle;horizontal=0;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="2124.0000000000005" width="42.74" height="81.37" as="geometry" />
+        </mxCell>
+        <mxCell id="UlK41VtHedm7h0xvEFEg-10" value="账期" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=89;verticalAlign=middle;horizontal=0;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="1511.32" y="2184.6" width="40.09" height="80.18" as="geometry" />
+        </mxCell>
+        <mxCell id="UlK41VtHedm7h0xvEFEg-12" value="额度" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=89;verticalAlign=middle;horizontal=0;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="2059.0000000000005" width="42.74" height="81.37" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
