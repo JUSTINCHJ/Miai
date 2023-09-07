@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-07T06:27:18.900Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="u7QYB-nGOiv262_bA10l" version="21.7.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-09-07T06:29:01.423Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="Y4weCyDVly7HTaxpgFr-" version="21.7.1" type="github" pages="4">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="系统调用关系">
     <mxGraphModel dx="1661" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" background="none" math="0" shadow="0">
       <root>
@@ -744,7 +744,19 @@
           <mxGeometry x="725.0499999999998" y="2260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9wtTQ9qSVMLxR7A9e5TD-10" value="单据状态" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=89;verticalAlign=middle;horizontal=0;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-          <mxGeometry x="910.0000000000001" y="2400.0000000000005" width="42.74" height="81.37" as="geometry" />
+          <mxGeometry x="928.6300000000001" y="2400.0000000000005" width="42.74" height="81.37" as="geometry" />
+        </mxCell>
+        <mxCell id="9wtTQ9qSVMLxR7A9e5TD-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9wtTQ9qSVMLxR7A9e5TD-13" target="9wtTQ9qSVMLxR7A9e5TD-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9wtTQ9qSVMLxR7A9e5TD-13" value="查询批跑结果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1108" y="2410.69" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9wtTQ9qSVMLxR7A9e5TD-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9wtTQ9qSVMLxR7A9e5TD-14" target="9wtTQ9qSVMLxR7A9e5TD-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9wtTQ9qSVMLxR7A9e5TD-14" value="策略人员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="2410.69" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
